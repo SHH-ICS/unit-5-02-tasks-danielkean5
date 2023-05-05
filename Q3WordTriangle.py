@@ -5,3 +5,8 @@
 # PYTH
 # PYTHO
 # PYTHON
+
+word = input()
+for l in range(len(word)):
+    print(word[0:l+1])
+    l = l + 1
